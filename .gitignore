@@ -1,1 +1,2 @@
 .env
+.database.initial_csv_data/
