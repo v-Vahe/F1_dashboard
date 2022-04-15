@@ -1,4 +1,4 @@
 .env
 .database.initial_csv_data
 .database.__pycache__
-.archive
+archive/
