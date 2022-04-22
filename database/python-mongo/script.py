@@ -2,6 +2,7 @@ from flask import Flask, render_template
 from flask_pymongo import PyMongo
 from pymongo import MongoClient
 import pprint
+import dash_example
  
 app = Flask(__name__)  
  
@@ -9,6 +10,8 @@ app = Flask(__name__)
 
 app.config["MONGO_URI"] = "mongodb://localhost:27017/myDatabase"
 mongo = PyMongo(app)
+dash_example.create_dash_application(app)
+
 
 @app.route('/home')  
 def home():  

@@ -1,22 +1,20 @@
-import urllib
 import sqlalchemy as sa
-import pandas as pd
 import sqlparse
+import sqlalchemy as sa
 import configparser
+print('I am here')
+_config = configparser.ConfigParser()
+_config.read('database/db.cfg')
 
-config = configparser.ConfigParser()
-config.read('database/db.cfg')
+engine = sa.create_engine('mssql+pyodbc://{3}:{4}@{1}/{2}?driver={0}'.format(*_config['SQL_DB'].values()))
 
-engine = sa.create_engine('mssql+pyodbc://{3}:{4}@{1}/{2}?driver={0}'.format(*config['SQL_DB'].values()))
 
 def create_schema():
     """
     create tables and realationships in SQLServer database
     """
-    with open("./database/sql_server/create_tables.sql") as sql_file:
-        sql_raw = sql_file.read()
-        sql_queries = sqlparse.split(
-            sqlparse.format(sql_raw, strip_comments=True)
+    sql_queries = file_query_reader(
+        "./database/sql_server/create_tables.sql"
         )
     with engine.connect() as conn:
         for query in sql_queries:
@@ -92,6 +90,14 @@ def set_identity_insert_off(table_name):
     query = f"SET IDENTITY_INSERT {table_name} OFF"
     with engine.connect() as conn:
         conn.execute(query)
+
+def file_query_reader(filepath):
+    with open(filepath) as sql_file:
+            sql_raw = sql_file.read()
+            sql_queries = sqlparse.split(
+                sqlparse.format(sql_raw, strip_comments=True)
+            )
+    return sql_queries
 
 def dispose_engine():
     engine.dispose()

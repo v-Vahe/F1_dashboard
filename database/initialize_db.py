@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/venv python
 
 import os
 import pandas as pd
@@ -37,7 +37,6 @@ def read_table(table):
 
 def main():
 
-    
     ordered_tables_list = table_list()
     identity_tables = get_identity_tables()
     
@@ -48,6 +47,7 @@ def main():
 
         # check if the table is already populated
         if table_exists(table_name): 
+            print('Database already populated \n')
             response = input(
                 "Do you want to drop the tables and repopulate? [Y]/[N]"
                 )
