@@ -1,0 +1,16 @@
+,TABLE_NAME
+0,circuits
+1,races
+2,drivers
+3,constructors
+4,qualifying
+5,lap_times
+6,pit_stops
+7,seasons
+8,status,dbo
+9,constructor_results
+10,constructor_standings
+11,driver_standings
+12,results
+
+

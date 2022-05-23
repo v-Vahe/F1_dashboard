@@ -1,0 +1,14 @@
+[2022-04-21 17:27:36,222] {processor.py:163} INFO - Started process (PID=13724) to work on /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-04-21 17:27:36,223] {processor.py:642} INFO - Processing file /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-04-21 17:27:36,224] {logging_mixin.py:109} INFO - [2022-04-21 17:27:36,224] {dagbag.py:500} INFO - Filling up the DagBag from /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-04-21 17:27:36,236] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-04-21 17:27:36,242] {logging_mixin.py:109} INFO - [2022-04-21 17:27:36,242] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-21 17:27:36,248] {logging_mixin.py:109} INFO - [2022-04-21 17:27:36,248] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-04-21 17:27:36,262] {processor.py:171} INFO - Processing /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.044 seconds
+[2022-04-21 17:28:09,560] {processor.py:163} INFO - Started process (PID=13818) to work on /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-04-21 17:28:09,562] {processor.py:642} INFO - Processing file /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-04-21 17:28:09,562] {logging_mixin.py:109} INFO - [2022-04-21 17:28:09,562] {dagbag.py:500} INFO - Filling up the DagBag from /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-04-21 17:28:09,575] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-04-21 17:28:09,581] {logging_mixin.py:109} INFO - [2022-04-21 17:28:09,581] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-21 17:28:09,587] {logging_mixin.py:109} INFO - [2022-04-21 17:28:09,587] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-04-21 17:28:09,594] {processor.py:171} INFO - Processing /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.037 seconds

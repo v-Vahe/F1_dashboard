@@ -1,0 +1,14 @@
+[2022-04-21 17:27:39,750] {processor.py:163} INFO - Started process (PID=13735) to work on /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-04-21 17:27:39,752] {processor.py:642} INFO - Processing file /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-04-21 17:27:39,752] {logging_mixin.py:109} INFO - [2022-04-21 17:27:39,752] {dagbag.py:500} INFO - Filling up the DagBag from /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-04-21 17:27:39,766] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-04-21 17:27:39,772] {logging_mixin.py:109} INFO - [2022-04-21 17:27:39,772] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-21 17:27:39,778] {logging_mixin.py:109} INFO - [2022-04-21 17:27:39,778] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-04-21T00:27:39.778423+00:00
+[2022-04-21 17:27:39,786] {processor.py:171} INFO - Processing /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.039 seconds
+[2022-04-21 17:28:12,318] {processor.py:163} INFO - Started process (PID=13821) to work on /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-04-21 17:28:12,319] {processor.py:642} INFO - Processing file /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-04-21 17:28:12,320] {logging_mixin.py:109} INFO - [2022-04-21 17:28:12,320] {dagbag.py:500} INFO - Filling up the DagBag from /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-04-21 17:28:12,333] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-04-21 17:28:12,339] {logging_mixin.py:109} INFO - [2022-04-21 17:28:12,339] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-21 17:28:12,345] {logging_mixin.py:109} INFO - [2022-04-21 17:28:12,345] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-04-21T00:28:12.345593+00:00
+[2022-04-21 17:28:12,353] {processor.py:171} INFO - Processing /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.036 seconds

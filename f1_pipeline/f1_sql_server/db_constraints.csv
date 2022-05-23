@@ -1,0 +1,34 @@
+,CONSTRAINT_CATALOG,CONSTRAINT_SCHEMA,CONSTRAINT_NAME,TABLE_CATALOG,TABLE_SCHEMA,TABLE_NAME,CONSTRAINT_TYPE,IS_DEFERRABLE,INITIALLY_DEFERRED
+0,formula1,dbo,PK__qualifyi__B707CC40620D76D3,formula1,dbo,qualifying,PRIMARY KEY,NO,NO
+1,formula1,dbo,FK_raceId_races_1,formula1,dbo,qualifying,FOREIGN KEY,NO,NO
+2,formula1,dbo,FK_driverId_drivers_0,formula1,dbo,qualifying,FOREIGN KEY,NO,NO
+3,formula1,dbo,FK_constructorId_constructors_1,formula1,dbo,qualifying,FOREIGN KEY,NO,NO
+4,formula1,dbo,PK__lap_time__BA0ACCF028D35430,formula1,dbo,lap_times,PRIMARY KEY,NO,NO
+5,formula1,dbo,FK_raceId_races_2,formula1,dbo,lap_times,FOREIGN KEY,NO,NO
+6,formula1,dbo,FK_driverId_drivers_1,formula1,dbo,lap_times,FOREIGN KEY,NO,NO
+7,formula1,dbo,PK__pit_stop__9FE5F1E5DD334729,formula1,dbo,pit_stops,PRIMARY KEY,NO,NO
+8,formula1,dbo,FK_raceId_races_3,formula1,dbo,pit_stops,FOREIGN KEY,NO,NO
+9,formula1,dbo,FK_driverId_drivers_2,formula1,dbo,pit_stops,FOREIGN KEY,NO,NO
+10,formula1,dbo,PK__seasons__BC91B17113139C22,formula1,dbo,seasons,PRIMARY KEY,NO,NO
+11,formula1,dbo,UQ__seasons__DD77841735712CD2,formula1,dbo,seasons,UNIQUE,NO,NO
+12,formula1,dbo,PK__status__36257A1842B0C876,formula1,dbo,status,PRIMARY KEY,NO,NO
+13,formula1,dbo,PK__construc__63C3A73749A1B876,formula1,dbo,constructor_results,PRIMARY KEY,NO,NO
+14,formula1,dbo,FK_raceId_races_4,formula1,dbo,constructor_results,FOREIGN KEY,NO,NO
+15,formula1,dbo,FK_constructorId_constructors_2,formula1,dbo,constructor_results,FOREIGN KEY,NO,NO
+16,formula1,dbo,PK__construc__8C72B06FDAB766E6,formula1,dbo,constructor_standings,PRIMARY KEY,NO,NO
+17,formula1,dbo,FK_raceId_races_5,formula1,dbo,constructor_standings,FOREIGN KEY,NO,NO
+18,formula1,dbo,FK_constructorId_constructors_3,formula1,dbo,constructor_standings,FOREIGN KEY,NO,NO
+19,formula1,dbo,PK__driver_s__BBDF0E9390C0B123,formula1,dbo,driver_standings,PRIMARY KEY,NO,NO
+20,formula1,dbo,FK_raceId_races_6,formula1,dbo,driver_standings,FOREIGN KEY,NO,NO
+21,formula1,dbo,FK_driverId_drivers_3,formula1,dbo,driver_standings,FOREIGN KEY,NO,NO
+22,formula1,dbo,PK__results__C6EADC5BA144D7BA,formula1,dbo,results,PRIMARY KEY,NO,NO
+23,formula1,dbo,FK_raceId_races_7,formula1,dbo,results,FOREIGN KEY,NO,NO
+24,formula1,dbo,FK_driverId_drivers_4,formula1,dbo,results,FOREIGN KEY,NO,NO
+25,formula1,dbo,FK_constructorId_constructors_4,formula1,dbo,results,FOREIGN KEY,NO,NO
+26,formula1,dbo,PK_circuitId,formula1,dbo,circuits,PRIMARY KEY,NO,NO
+27,formula1,dbo,UQ__circuits__DD7784174B18C5D0,formula1,dbo,circuits,UNIQUE,NO,NO
+28,formula1,dbo,PK__races__B5C1EE35D43CA061,formula1,dbo,races,PRIMARY KEY,NO,NO
+29,formula1,dbo,FK_circuitId_circuits,formula1,dbo,races,FOREIGN KEY,NO,NO
+30,formula1,dbo,PK__drivers__F1532DF2AAE06D7E,formula1,dbo,drivers,PRIMARY KEY,NO,NO
+31,formula1,dbo,UQ__drivers__DD7784170E708DB1,formula1,dbo,drivers,UNIQUE,NO,NO
+32,formula1,dbo,PK__construc__9B3A906F95E4B620,formula1,dbo,constructors,PRIMARY KEY,NO,NO

@@ -1,0 +1,14 @@
+[2022-04-21 17:27:23,090] {processor.py:163} INFO - Started process (PID=13604) to work on /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-04-21 17:27:23,092] {processor.py:642} INFO - Processing file /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-04-21 17:27:23,092] {logging_mixin.py:109} INFO - [2022-04-21 17:27:23,092] {dagbag.py:500} INFO - Filling up the DagBag from /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-04-21 17:27:23,108] {processor.py:652} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-04-21 17:27:23,114] {logging_mixin.py:109} INFO - [2022-04-21 17:27:23,114] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-21 17:27:23,124] {logging_mixin.py:109} INFO - [2022-04-21 17:27:23,124] {dag.py:2937} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-04-22T00:26:00+00:00
+[2022-04-21 17:27:23,132] {processor.py:171} INFO - Processing /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.045 seconds
+[2022-04-21 17:27:55,134] {processor.py:163} INFO - Started process (PID=13776) to work on /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-04-21 17:27:55,136] {processor.py:642} INFO - Processing file /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-04-21 17:27:55,136] {logging_mixin.py:109} INFO - [2022-04-21 17:27:55,136] {dagbag.py:500} INFO - Filling up the DagBag from /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-04-21 17:27:55,153] {processor.py:652} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-04-21 17:27:55,158] {logging_mixin.py:109} INFO - [2022-04-21 17:27:55,158] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-21 17:27:55,168] {logging_mixin.py:109} INFO - [2022-04-21 17:27:55,168] {dag.py:2937} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-04-22T00:26:00+00:00
+[2022-04-21 17:27:55,175] {processor.py:171} INFO - Processing /home/ubuntu/code/F1_dashboard/env3/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.044 seconds
